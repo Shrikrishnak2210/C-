@@ -11,5 +11,8 @@ int main()
 //     return 0;
 // }
 {
-    cout << "Hello World";
+    char name[10];
+    cout << "Enter name: ";
+    cin >> name;
+    cout << "My name is " << name;
 }
